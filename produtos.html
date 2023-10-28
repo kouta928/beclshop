@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>bec Designs</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-black">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" class="logo" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="produtos.html">Produtos</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Busca" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Busca</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <main class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="titulo-principal">Cadastro de Produtos</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <form action="" id="cadastraProduto">
+                <div class="mb-3">
+                    <label for="title" class="form-label">Título</label>
+                    <input type="text" class="form-control" id="title" placeholder="Nome do seu produto">
+                </div>
+
+                <div class="mb-3 col-sm12 col-md-6">
+                    <label for="price" class="form-label">Valor</label>
+                    <input type="text" class="form-control" id="price" placeholder="Valor do produto">
+                </div>
+
+                <div class="mb-3 col-sm12 col-md-6">
+                    <label for="img" class="form-label">Foto</label>
+                    <input type="text" class="form-control" id="img" placeholder="Nome da Foto">
+                </div>
+
+                <div class="mb-3">
+                    <label for="description" class="form-label">Descrição</label>
+                    <textarea class="form-control" id="description" rows="3"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-success">SALVAR</button>
+
+
+
+            </form>
+
+            <div class="row">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Título</th>
+                            <th>Valor</th>
+                            <th>Foto</th>
+                            <th>Descrição</th>
+                        </tr>
+                    </thead>
+                    <tbody id="loadProdutos">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+      </main>
+
+      <div class="row">
+        <div class="col-12 spacer">
+
+        </div>
+      </div>
+      <section class="">
+        <!-- Footer -->
+        <footer class="text-center text-white" style="background-color: gray;">
+          <!-- Grid container -->
+          <div class="container p-4 pb-0">
+            <section class="">
+              <p class="d-flex justify-content-center align-items-center">
+                <span class="me-3">Obrigado e volte sempre!</span>
+              </p>
+            </section>
+          </div>
+          <!-- Grid container -->
+      
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: black">
+            © 2023 Copyright
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+      </section>
+
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.7.1.min.js"></script>
+      <!-- <script src="js/app.js"></script> -->
+      <script src="js/savedata.js"></script>
+</body>
+</html>

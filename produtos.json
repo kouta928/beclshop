@@ -1,0 +1,28 @@
+{
+    "produtos" : [
+        {
+            "title" : "Comedouro Individual",
+            "description" : "Comedouro Elevado para pets",
+            "img" : "cmd01.png",
+            "price" : 35.00
+        },
+        {
+            "title" : "Comedouro Duplo",
+            "description" : "Comedouro Elevado para pets",
+            "img" : "cmd02.png",
+            "price" : 50.00
+        },
+        {
+            "title" : "Comedouro Triplo",
+            "description" : "Comedouro Elevado para pets",
+            "img" : "cmd03.png",
+            "price" : 65.00
+        },
+        {
+            "title" : "Comedouro Quádruplo",
+            "description" : "Comedouro Elevado para pets",
+            "img" : "cmd04.png",
+            "price" : 80.00
+        }
+    ]
+}

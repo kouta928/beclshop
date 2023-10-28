@@ -1,0 +1,27 @@
+/* *{
+    box-sizing: border-box;
+} */
+
+.logo{
+    width: 2.5rem;
+}
+
+.titulo-principal{
+    text-align: center;
+    margin-top: .5em;
+}
+.spacer{
+    height: 30vh;
+}
+
+.boxCard{
+    width: 15rem;
+    min-height: 24rem;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+.imagemProduto{
+    width: 15rem;
+}
+
